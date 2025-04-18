@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer className="overflow-hidden">
-        <div className="bg-[#182759] py-[5px] px-[10%] flex justify-between items-center">
+        <div className="bg-[#182759] py-[5px] px-[12%] flex justify-between items-center">
           <div className="flex flex-col items-center text-white">
             <h2 className="text-[22px] font-[500] py-4">
               Enjoy seamless services
@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
         <div className="bg-[#ECF1FF] relative">
           <img src="/footerPtn.svg" className="absolute z-0 w-full" alt="" />
-          <div className="relative z-10 flex px-[8%] pt-4 py-10 justify-between items-start">
+          <div className="relative z-10 flex px-[10%] pt-4 py-10 justify-between items-start">
             <div className="flex flex-col items-start gap-[30px]">
               <img src="/cashLogo.svg" alt="" />
               <div className="flex flex-col gap-3">
