@@ -1,4 +1,18 @@
+"use client";
 /* eslint-disable @next/next/no-img-element */
+import { Swiper, SwiperSlide } from "swiper/react";
+import {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Autoplay,
+} from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+// import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+
 export default function Home() {
   return (
     <>
@@ -46,6 +60,7 @@ export default function Home() {
           <img src="/hero.png" alt="" />
         </div>
       </header>
+
       <main>
         <div className="overflow-hidden">
           <div className="bg-[#ECF1FF] relative">
@@ -393,6 +408,331 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <section className="overflow-hidden w-full">
+          <div className="bg-[#182759] w-full relative">
+            <img
+              src="/testimonialPtn.svg"
+              className="absolute z-0 w-full"
+              alt=""
+            />
+            <div className="relative z-10 text-white flex w-full flex-col items-center gap-[24px] px-[10%] pt-[50px] pb-[35px]">
+              <h1 className="text-[38px] font-[700]">
+                Testimonials & Reviews{" "}
+              </h1>
+              <p className="text-center text-[20px]">
+                What our customers have to say <br /> about our outstanding App
+              </p>
+
+              <div className="overflow-hidden w-full px-6">
+                <Swiper
+                  modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+                  spaceBetween={24}
+                  slidesPerView={1}
+                  loop={true}
+                  autoplay={{
+                    delay: 4000,
+                    disableOnInteraction: false,
+                    pauseOnMouseEnter: false,
+                  }}
+                  // Remove loopedSlides or set it to match your actual slide count
+                  // loopedSlides={5}
+                  // Add these parameters
+                  allowTouchMove={true}
+                  observer={true}
+                  observeParents={true}
+                  // breakpoints={{
+                  //   640: { slidesPerView: 2 },
+                  //   1124: { slidesPerView: 3 },
+                  //   1440: { slidesPerView: 4 },
+                  // }}
+                  navigation={{
+                    nextEl: ".custom-nextBB",
+                    prevEl: ".custom-prevBB",
+                  }}
+                  pagination={{
+                    el: ".custom-paginationBB",
+                    clickable: true,
+                    renderBullet: (_index, className) =>
+                      `<span class="${className} relative z-[100]  custom-bulletBB"></span>`,
+                  }}
+                >
+                  <SwiperSlide className="px-[10%]">
+                    <div className="border-[2px] border-[#FFFFFF66] rounded-t-[75px] overflow-hidden">
+                      <img src="/image.png" alt="" />
+                      <div className="bg-white py-5 flex justify-center flex-col items-center gap-[15px]">
+                        <div className="flex justify-center items-center gap-3">
+                          <svg
+                            width="28"
+                            height="27"
+                            viewBox="0 0 28 27"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 0L17.7175 6.2805L24.9456 5.27114L22.3532 12.0934L27.649 17.1153L20.6987 19.3421L20.0744 26.6136L14 22.568L7.92563 26.6136L7.30127 19.3421L0.351009 17.1153L5.64682 12.0934L3.05436 5.27114L10.2825 6.2805L14 0Z"
+                              fill="#FDD015"
+                            />
+                          </svg>
+                          <svg
+                            width="28"
+                            height="27"
+                            viewBox="0 0 28 27"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 0L17.7175 6.2805L24.9456 5.27114L22.3532 12.0934L27.649 17.1153L20.6987 19.3421L20.0744 26.6136L14 22.568L7.92563 26.6136L7.30127 19.3421L0.351009 17.1153L5.64682 12.0934L3.05436 5.27114L10.2825 6.2805L14 0Z"
+                              fill="#FDD015"
+                            />
+                          </svg>
+                          <svg
+                            width="28"
+                            height="27"
+                            viewBox="0 0 28 27"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 0L17.7175 6.2805L24.9456 5.27114L22.3532 12.0934L27.649 17.1153L20.6987 19.3421L20.0744 26.6136L14 22.568L7.92563 26.6136L7.30127 19.3421L0.351009 17.1153L5.64682 12.0934L3.05436 5.27114L10.2825 6.2805L14 0Z"
+                              fill="#FDD015"
+                            />
+                          </svg>
+                          <svg
+                            width="28"
+                            height="27"
+                            viewBox="0 0 28 27"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 0L17.7175 6.2805L24.9456 5.27114L22.3532 12.0934L27.649 17.1153L20.6987 19.3421L20.0744 26.6136L14 22.568L7.92563 26.6136L7.30127 19.3421L0.351009 17.1153L5.64682 12.0934L3.05436 5.27114L10.2825 6.2805L14 0Z"
+                              fill="#C1C1C1"
+                            />
+                          </svg>
+                          <svg
+                            width="28"
+                            height="27"
+                            viewBox="0 0 28 27"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 0L17.7175 6.2805L24.9456 5.27114L22.3532 12.0934L27.649 17.1153L20.6987 19.3421L20.0744 26.6136L14 22.568L7.92563 26.6136L7.30127 19.3421L0.351009 17.1153L5.64682 12.0934L3.05436 5.27114L10.2825 6.2805L14 0Z"
+                              fill="#C1C1C1"
+                            />
+                          </svg>
+                        </div>
+
+                        <p className="w-[45%] text-center text-[#1F3172] font-[600] text-[30px] leading-[100%]">
+                          Before now, used to struggle to send money from Ghana
+                          to Nigeria. but not anymore
+                        </p>
+
+                        <div className="flex justify-center items-center gap-[10px]">
+                          <img src="/dot 2.svg" alt="" />
+                          <p className="text-[20px] text-[#1F3172]">
+                            Asamoa FF
+                          </p>
+                          <img src="/dot 2.svg" alt="" />
+                        </div>
+
+                        <div className="flex justify-center items-center gap-[10px]">
+                          <img src="/ghana.svg" alt="" />
+                          <p className="text-[18px] font-[600] text-[#1F3172]">
+                            Ghana{" "}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="px-[10%]">
+                    <div className="border-[2px] border-[#FFFFFF66] rounded-t-[75px] overflow-hidden">
+                      <img src="/image.png" alt="" />
+                      <div className="bg-white py-5 flex justify-center flex-col items-center gap-[15px]">
+                        <div className="flex justify-center items-center gap-3">
+                          <svg
+                            width="28"
+                            height="27"
+                            viewBox="0 0 28 27"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 0L17.7175 6.2805L24.9456 5.27114L22.3532 12.0934L27.649 17.1153L20.6987 19.3421L20.0744 26.6136L14 22.568L7.92563 26.6136L7.30127 19.3421L0.351009 17.1153L5.64682 12.0934L3.05436 5.27114L10.2825 6.2805L14 0Z"
+                              fill="#FDD015"
+                            />
+                          </svg>
+                          <svg
+                            width="28"
+                            height="27"
+                            viewBox="0 0 28 27"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 0L17.7175 6.2805L24.9456 5.27114L22.3532 12.0934L27.649 17.1153L20.6987 19.3421L20.0744 26.6136L14 22.568L7.92563 26.6136L7.30127 19.3421L0.351009 17.1153L5.64682 12.0934L3.05436 5.27114L10.2825 6.2805L14 0Z"
+                              fill="#FDD015"
+                            />
+                          </svg>
+                          <svg
+                            width="28"
+                            height="27"
+                            viewBox="0 0 28 27"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 0L17.7175 6.2805L24.9456 5.27114L22.3532 12.0934L27.649 17.1153L20.6987 19.3421L20.0744 26.6136L14 22.568L7.92563 26.6136L7.30127 19.3421L0.351009 17.1153L5.64682 12.0934L3.05436 5.27114L10.2825 6.2805L14 0Z"
+                              fill="#FDD015"
+                            />
+                          </svg>
+                          <svg
+                            width="28"
+                            height="27"
+                            viewBox="0 0 28 27"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 0L17.7175 6.2805L24.9456 5.27114L22.3532 12.0934L27.649 17.1153L20.6987 19.3421L20.0744 26.6136L14 22.568L7.92563 26.6136L7.30127 19.3421L0.351009 17.1153L5.64682 12.0934L3.05436 5.27114L10.2825 6.2805L14 0Z"
+                              fill="#C1C1C1"
+                            />
+                          </svg>
+                          <svg
+                            width="28"
+                            height="27"
+                            viewBox="0 0 28 27"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 0L17.7175 6.2805L24.9456 5.27114L22.3532 12.0934L27.649 17.1153L20.6987 19.3421L20.0744 26.6136L14 22.568L7.92563 26.6136L7.30127 19.3421L0.351009 17.1153L5.64682 12.0934L3.05436 5.27114L10.2825 6.2805L14 0Z"
+                              fill="#C1C1C1"
+                            />
+                          </svg>
+                        </div>
+
+                        <p className="w-[45%] text-center text-[#1F3172] font-[600] text-[30px] leading-[100%]">
+                          Before now, used to struggle to send money from Ghana
+                          to Nigeria. but not anymore
+                        </p>
+
+                        <div className="flex justify-center items-center gap-[10px]">
+                          <img src="/dot 2.svg" alt="" />
+                          <p className="text-[20px] text-[#1F3172]">
+                            Asamoa FF
+                          </p>
+                          <img src="/dot 2.svg" alt="" />
+                        </div>
+
+                        <div className="flex justify-center items-center gap-[10px]">
+                          <img src="/ghana.svg" alt="" />
+                          <p className="text-[18px] font-[600] text-[#1F3172]">
+                            Ghana{" "}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="px-[10%]">
+                    <div className="border-[2px] border-[#FFFFFF66] rounded-t-[75px] overflow-hidden">
+                      <img src="/image.png" alt="" />
+                      <div className="bg-white py-5 flex justify-center flex-col items-center gap-[15px]">
+                        <div className="flex justify-center items-center gap-3">
+                          <svg
+                            width="28"
+                            height="27"
+                            viewBox="0 0 28 27"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 0L17.7175 6.2805L24.9456 5.27114L22.3532 12.0934L27.649 17.1153L20.6987 19.3421L20.0744 26.6136L14 22.568L7.92563 26.6136L7.30127 19.3421L0.351009 17.1153L5.64682 12.0934L3.05436 5.27114L10.2825 6.2805L14 0Z"
+                              fill="#FDD015"
+                            />
+                          </svg>
+                          <svg
+                            width="28"
+                            height="27"
+                            viewBox="0 0 28 27"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 0L17.7175 6.2805L24.9456 5.27114L22.3532 12.0934L27.649 17.1153L20.6987 19.3421L20.0744 26.6136L14 22.568L7.92563 26.6136L7.30127 19.3421L0.351009 17.1153L5.64682 12.0934L3.05436 5.27114L10.2825 6.2805L14 0Z"
+                              fill="#FDD015"
+                            />
+                          </svg>
+                          <svg
+                            width="28"
+                            height="27"
+                            viewBox="0 0 28 27"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 0L17.7175 6.2805L24.9456 5.27114L22.3532 12.0934L27.649 17.1153L20.6987 19.3421L20.0744 26.6136L14 22.568L7.92563 26.6136L7.30127 19.3421L0.351009 17.1153L5.64682 12.0934L3.05436 5.27114L10.2825 6.2805L14 0Z"
+                              fill="#FDD015"
+                            />
+                          </svg>
+                          <svg
+                            width="28"
+                            height="27"
+                            viewBox="0 0 28 27"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 0L17.7175 6.2805L24.9456 5.27114L22.3532 12.0934L27.649 17.1153L20.6987 19.3421L20.0744 26.6136L14 22.568L7.92563 26.6136L7.30127 19.3421L0.351009 17.1153L5.64682 12.0934L3.05436 5.27114L10.2825 6.2805L14 0Z"
+                              fill="#C1C1C1"
+                            />
+                          </svg>
+                          <svg
+                            width="28"
+                            height="27"
+                            viewBox="0 0 28 27"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M14 0L17.7175 6.2805L24.9456 5.27114L22.3532 12.0934L27.649 17.1153L20.6987 19.3421L20.0744 26.6136L14 22.568L7.92563 26.6136L7.30127 19.3421L0.351009 17.1153L5.64682 12.0934L3.05436 5.27114L10.2825 6.2805L14 0Z"
+                              fill="#C1C1C1"
+                            />
+                          </svg>
+                        </div>
+
+                        <p className="w-[45%] text-center text-[#1F3172] font-[600] text-[30px] leading-[100%]">
+                          Before now, used to struggle to send money from Ghana
+                          to Nigeria. but not anymore
+                        </p>
+
+                        <div className="flex justify-center items-center gap-[10px]">
+                          <img src="/dot 2.svg" alt="" />
+                          <p className="text-[20px] text-[#1F3172]">
+                            Asamoa FF
+                          </p>
+                          <img src="/dot 2.svg" alt="" />
+                        </div>
+
+                        <div className="flex justify-center items-center gap-[10px]">
+                          <img src="/ghana.svg" alt="" />
+                          <p className="text-[18px] font-[600] text-[#1F3172]">
+                            Ghana{" "}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                </Swiper>
+
+                <div className="pt-5 flex justify-center items-center gap-[20px]">
+                  <div className="custom-paginationBB"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );
