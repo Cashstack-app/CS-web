@@ -254,6 +254,145 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <div className=" overflow-hidden">
+          <div className="bg-[#ECF1FF] px-[10%] relative">
+            <img
+              src="/blackApple.png"
+              className="absolute w-[25%] left-0 top-0 z-0"
+              alt=""
+            />
+            <img
+              src="/ellipse.png"
+              className="absolute w-[35%] left-[33%] bottom-0 z-20"
+              alt=""
+            />
+            <div className="relative z-10 flex justify-between items-center gap-[20px]">
+              <div className="flex flex-col gap-[60px] w-1/2">
+                <div className="flex flex-col gap-[40px]">
+                  <h2 className="text-[28px] font-[700] text-[#182759]">
+                    Purchase your bills services
+                  </h2>
+                  <p className="text-[#182759] text-[20px]">
+                    With <span className="font-[700]">Cashstack</span>, you only
+                    have the most suitable way to make purchase your{" "}
+                    <span className="font-[700]">
+                      data, airtime, electricity
+                    </span>{" "}
+                    and <span className="font-[700]">TV</span>{" "}
+                  </p>
+                </div>
+
+                <div className="flex flex-col justify-start items-start gap-[20px]">
+                  <div className="flex justify-start items-center gap-[30px]">
+                    <img src="/tv.svg" alt="" />
+                    <p className="text-[24px] font-[500]">TV subscription</p>
+                  </div>
+                  <div className="flex justify-start items-center gap-[30px]">
+                    <img src="/data.svg" alt="" />
+                    <p className="text-[24px] font-[500]">Get data</p>
+                  </div>
+                  <div className="flex justify-start items-center gap-[30px]">
+                    <img src="/airtime.svg" alt="" />
+                    <p className="text-[24px] font-[500]">Get airtime</p>
+                  </div>
+                  <div className="flex justify-start items-center gap-[30px]">
+                    <img src="/electricity.svg" alt="" />
+                    <p className="text-[24px] font-[500]">
+                      Buy Electricity bills
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="w-1/2 bg-gradient-to-r from-[#142561] to-[#456EFE] py-[90px] px-5 overflow-hidden relative">
+                <img
+                  src="/aside.png"
+                  className="left-0 w-[70%] bottom-0 absolute"
+                  alt=""
+                />
+                <div className="relative z-10 flex flex-col text-white items-center gap-[50px]">
+                  <h2 className="font-[700] text-[38px]">
+                    Bill Splitting & Services
+                  </h2>
+                  <div className="border-[#C1C1C166] border-[2px] bg-[#182759] py-11 px-[10px] w-full rounded-[8px] flex flex-col gap-[30px]">
+                    <h2 className="font-[700] text-[28px]">Bill splitting</h2>
+                    <p className="text-[20px]">
+                      This feature allows users to divide the cost of a purchase
+                      or expense among a group of people. This feature is
+                      designed to simplify the process of settling expenses with
+                      friends or colleagues after a shared purchase or activity.
+                    </p>
+
+                    <div className="flex justify-center items-center pt-[10px]">
+                      <button className="bg-white h-[55px] w-[155px] rounded-[6px] text-[#182759] font-[700] text-[20px]">
+                        Try now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="px-[10%] pt-[75px] pb-[60px] flex justify-between items-start gap-[32px]">
+          <div className="w-[40%]">
+            <div className="flex flex-col gap-[24px]">
+              <h2 className="text-[40px] text-[#182759] font-[700] leading-[120%]">
+                Instant multiple <br /> currency conversion
+              </h2>
+              <p className="text-[#182759] text-[20px]">
+                Convert between supported local & International currencies,
+                including Naira, Cedis and Dollar, in just a few minute
+              </p>
+
+              <div className="bg-[#182759] text-white rounded-[20px] px-[28px] pt-[30px] pb-[40px] flex flex-col items-center gap-[26px]">
+                <h2 className="text-[24px] font-[600]">Currency conversion</h2>
+                <img src="/swapping.png" className="" alt="" />
+                <p>
+                  Estimated conversion time{" "}
+                  <span className="text-[18px] font-[600]">0-1 mins</span>
+                </p>
+              </div>
+
+              <div className="flex justify-center items-center">
+                <button className="bg-primary h-[55px] w-[185px] rounded-[6px] text-white font-[700] text-[20px]">
+                  Try now
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-[55%] flex flex-col items-center">
+            <div className="relative overflow-hidden">
+              <div className="absolute top-0 left-0 bg-[#182759] text-white font-[600] text-[18px] py-2 px-14 rounded-tl-[5px] rounded-br-[15px]">
+                Coming soon
+              </div>
+              <img src="/details.png" alt="" />
+            </div>
+
+            <div className="bg-white w-[90%] box-shadow px-[10px] shadow-lg -mt-[70px] relative z-20 py-[25px] rounded-[12px]">
+              <div className="flex justify-start items-center gap-[14px]">
+                <img src="/conversion.svg" alt="" />
+                <h2 className="text-[28px] font-[700] text-[#182759]">
+                  Inter foreign & Local currency
+                  <br /> conversion
+                </h2>
+              </div>
+              <p className="text-[20px] px-[20px] pt-[10px]">
+                Easily convert between currencies like; Naira and dollar with
+                our seamless multi-currency conversion service. Whether
+                you&apos;re handling international payments or managing funds
+                across different countries, <br />
+                <span className="font-[600] text-[#3E63E5]">
+                  Cashstack
+                </span>{" "}
+                makes it swift and seamless.
+              </p>
+            </div>
+          </div>
+        </div>
       </main>
     </>
   );

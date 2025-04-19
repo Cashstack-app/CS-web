@@ -11,7 +11,7 @@ const Navbar = () => {
         <nav className="bg-white px-[8%] py-[20px]">
           <div className="flex items-center justify-between px-4 py-2 text-dark">
             <img src="/cashLogo.svg" alt="" />{" "}
-            <ul className="flex items-center space-x-4 text-[20px] text-[#1F3172] font-[600]">
+            <ul className="flex items-center space-x-4 text-[18px] text-[#1F3172] font-[600]">
               <li>
                 <Link href="/" className={`${pathname === "/" ? "text-[##182759] font-[700] active" : "text-[#1F3172] font-[600]"} link-gradient-border`}>
                   Home
