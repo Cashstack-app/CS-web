@@ -1,85 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
-
-@import "tailwindcss";
-
-@import "https://unpkg.com/swiper/swiper-bundle.min.css";
-@import "https://unpkg.com/swiper/modules/navigation/navigation.min.css";
-@import "https://unpkg.com/swiper/modules/pagination/pagination.min.css";
-@import "https://unpkg.com/swiper/modules/scrollbar/scrollbar.min.css";
-
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-primary: #456EFE;
-  --color-dark: #222222;
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-  --font-mona: "Mona Sans", sans-serif;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
   }
 }
 
-.link-gradient-border {
-  position: relative;
-  padding-bottom: 4px;
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
 
-.link-gradient-border::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 2px;
-  width: 100%;
-  background: linear-gradient(to right, #8730FE, #456EFE, #B775D7);
-  border-radius: 9999px;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.link-gradient-border.active::after {
-  opacity: 1;
-}
-
-.task {
-  background-image: url('/task.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.box-shadow-{
-  box-shadow: 0px 1px 22px 0px #0000001F;
-}
-
-.custom-paginationBB {
+/* Basic utility classes */
+.flex {
   display: flex;
-  justify-content: center;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
   align-items: center;
-  gap: 10px;
-  margin-top: 0px;
 }
 
-.custom-bulletBB {
-  width: 30px;
-  height: 11px;
-  background-color: #FFFFFF;
-  border-radius: 55px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+.justify-center {
+  justify-content: center;
 }
 
-.custom-bulletBB.swiper-pagination-bullet-active {
-  background-color: #456EFE; /* Active bullet color */
-  width: 88px;
-  height: 11px;
-  border-radius: 55px;
+.p-24 {
+  padding: 6rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-gray-600 {
+  color: rgb(75 85 99);
 }
