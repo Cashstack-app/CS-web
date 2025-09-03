@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Hero Image */}
       <div className="absolute inset-0">
         <Image
-          src="/hero2.png"
+          src="/image/hero2.png"
           alt="Hero"
           fill
           className="object-cover scale-100"
@@ -21,17 +21,16 @@ export default function Hero() {
         {/* Text Content */}
         <div className="max-w-5xl mt-8 sm:mt-12 md:mt-16 text-center px-4">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light text-white mb-4 sm:mb-6 leading-tight">
-            Empowering your <span className="font-bold italic">Gateway</span> to
-            financial freedom
+            AI-Powered Banking with <span className="font-bold italic">StackAI</span>
           </h1>
           <p className="text-md sm:text-xl text-[#C5C5C5] leading-relaxed max-w-3xl mx-auto">
-            We is the next generation fin-tech app that empower user with
-            unlimited financial freedom.
+            Send money with just text or snap a photo of any account number. 
+            Experience seamless transactions and earn StackPoints on every payment.
           </p>
           <button className="bg-black border border-[#383838] text-white px-8 py-4 rounded-full font-semibold text-base cursor-pointer transition-all duration-300 mt-8  hover:-translate-y-0.5 hover:shadow-lg hover:shadow-white/30 flex items-center gap-2 justify-center mx-auto">
             Download
-            <Image src="/Social-Icon-apple.png" alt="Download" width={20} height={20} />
-            <Image src="/Social-Icon-google.png" alt="Download" width={18} height={18} />
+            <Image src="/icons/Social-Icon-apple.png" alt="Download" width={20} height={20} />
+            <Image src="/icons/Social-Icon-google.png" alt="Download" width={18} height={18} />
           </button>
         </div>
       </div>
