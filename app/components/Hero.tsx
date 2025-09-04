@@ -86,12 +86,12 @@ export default function Hero() {
           </AnimatePresence>
         </div>
         
-        {/* Static Download Button */}
-        <div className="mt-8">
+        {/* Static Download Button - Mobile responsive positioning */}
+        <div className="mt-8 mb-32 sm:mb-40 md:mb-48 lg:mb-0">
           <motion.button 
             whileHover={{ y: -2, boxShadow: "0 10px 25px rgba(255, 255, 255, 0.3)" }}
             whileTap={{ scale: 0.98 }}
-            className="bg-black border border-[#383838] text-white px-8 py-4 rounded-full font-semibold text-base cursor-pointer transition-all duration-300 flex items-center gap-2 justify-center mx-auto"
+            className="bg-black border border-[#383838] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-sm sm:text-base cursor-pointer transition-all duration-300 flex items-center gap-2 justify-center mx-auto"
           >
             Download
             <Image
@@ -110,7 +110,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* iPhone Mockup - Positioned at bottom */}
+      {/* iPhone Mockup - Positioned at bottom with mobile adjustments */}
       <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 z-20">
         <div className="relative">
           <Image
@@ -118,7 +118,7 @@ export default function Hero() {
             alt="Cashstack App on iPhone 15 Pro"
             width={400}
             height={400}
-            className="max-w-[250px] sm:max-w-[350px] md:max-w-[500px] lg:max-w-[1000px] xl:max-w-[1200px] 2xl:max-w-[1400px] h-auto drop-shadow-2xl"
+            className="max-w-[250px] sm:max-w-[320px] md:max-w-[400px] lg:max-w-[500px] xl:max-w-[700px] 2xl:max-w-[900px] h-auto drop-shadow-2xl"
             priority
           />
           
