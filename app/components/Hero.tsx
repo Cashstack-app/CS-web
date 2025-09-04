@@ -29,8 +29,8 @@ export default function Hero() {
           </p>
           <button className="bg-black border border-[#383838] text-white px-8 py-4 rounded-full font-semibold text-base cursor-pointer transition-all duration-300 mt-8  hover:-translate-y-0.5 hover:shadow-lg hover:shadow-white/30 flex items-center gap-2 justify-center mx-auto">
             Download
-            <Image src="/icons/Social-Icon-apple.png" alt="Download" width={20} height={20} />
-            <Image src="/icons/Social-Icon-google.png" alt="Download" width={18} height={18} />
+                         <Image src="/icons/Social-Icon-apple.png" alt="Download" width={20} height={20} />
+             <Image src="/icons/Social-Icon-google.png" alt="Download" width={18} height={18} />
           </button>
         </div>
       </div>
