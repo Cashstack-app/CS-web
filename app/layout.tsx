@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   authors: [{ name: 'Cashstack' }],
   creator: 'Cashstack',
   publisher: 'Cashstack',
+  icons: {
+    icon: '/icons/logo.png',
+    shortcut: '/icons/logo.png',
+    apple: '/icons/logo.png',
+  },
   formatDetection: {
     email: false,
     address: false,
