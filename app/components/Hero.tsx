@@ -126,7 +126,7 @@ export default function Hero() {
       </div>
 
       {/* Full width glass effect layer at bottom of hero */}
-      <div className="absolute bottom-0 left-0 w-full h-28 bg-gradient-to-r from-[#0D0D0D]/30 to-[#080808]/30 backdrop-blur-md z-30"></div>
+      <div className="absolute bottom-0 left-0 w-full h-14 sm:h-16 md:h-20 lg:h-20 bg-gradient-to-r from-[#0D0D0D]/30 to-[#080808]/30 backdrop-blur-md z-30"></div>
     </section>
   );
 }
