@@ -18,23 +18,22 @@ export default function PrivacyPolicyPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4 text-white">1. Company Information</h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              This Privacy Policy describes how <strong className="text-white">ASKAM AI LIMITED</strong> 
+              This Privacy Policy describes how <strong className="text-white">OMNI HORIZON TECHNOLOGY LTD</strong> 
               (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) collects, uses, and protects your information when you use Cashstack, 
               our AI-powered banking platform.
             </p>
             <p className="text-gray-300 leading-relaxed mb-4">
-              ASKAM AI LIMITED is a private company limited by shares registered in Nigeria (RC Number: 7390882) 
-              on March 8, 2024, and is the data controller for your personal information.
+              OMNI HORIZON TECHNOLOGY LTD is a private company limited by shares registered in the United Kingdom,
+              and is the data controller for your personal information.
             </p>
             <p className="text-gray-300 leading-relaxed">
               Our contact details are:
             </p>
             <ul className="text-gray-300 mt-2 ml-6">
-              <li>Company: ASKAM AI LIMITED</li>
-              <li>RC Number: 7390882</li>
-              <li>Email: askamai@gmail.com</li>
-              <li>Phone: +234 706 606 2431 / +234 803 887 8026</li>
-              <li>Address: No. 8, Ahmadu Bello Way, Opposite NIPOST, Jos, Plateau State, Nigeria</li>
+              <li>Company: OMNI HORIZON TECHNOLOGY LTD</li>
+              <li>Email: partnerships@omnihorizon.tech</li>
+              <li>Phone: +44 7932070056</li>
+              <li>Address: United Kingdom</li>
             </ul>
           </section>
 
@@ -202,15 +201,14 @@ export default function PrivacyPolicyPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4 text-white">13. How to Contact Us</h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              If you have questions or concerns regarding this privacy policy, or any feedback pertaining to your privacy and the Services that you would like us to consider, please email us at askamai@gmail.com.
+              If you have questions or concerns regarding this privacy policy, or any feedback pertaining to your privacy and the Services that you would like us to consider, please email us at partnerships@omnihorizon.tech.
             </p>
             <div className="mt-4 p-4 bg-gray-900 rounded-lg">
-              <p className="text-white font-semibold">ASKAM AI LIMITED</p>
-              <p className="text-gray-300">RC Number: 7390882</p>
+              <p className="text-white font-semibold">OMNI HORIZON TECHNOLOGY LTD</p>
               <p className="text-gray-300">Privacy Officer</p>
-              <p className="text-gray-300">Email: askamai@gmail.com</p>
-              <p className="text-gray-300">Phone: +234 706 606 2431 / +234 803 887 8026</p>
-              <p className="text-gray-300">Address: No. 8, Ahmadu Bello Way, Opposite NIPOST, Jos, Plateau State, Nigeria</p>
+              <p className="text-gray-300">Email: partnerships@omnihorizon.tech</p>
+              <p className="text-gray-300">Phone: +44 7932070056</p>
+              <p className="text-gray-300">Address: United Kingdom</p>
             </div>
           </section>
 

@@ -18,20 +18,20 @@ export default function TermsPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4 text-white">1. Company Information</h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Cashstack is owned and operated by <strong className="text-white">ASKAM AI LIMITED</strong>, 
-              a private company limited by shares registered in Nigeria (RC Number: 7390882) on March 8, 2024.
+              Cashstack is owned and operated by <strong className="text-white">OMNI HORIZON TECHNOLOGY LTD</strong>, 
+              a private company limited by shares registered in the United Kingdom.
             </p>
             <p className="text-gray-300 leading-relaxed mb-4">
               <strong className="text-white">Registered Address:</strong><br/>
-              No. 8, Ahmadu Bello Way, Opposite NIPOST, Jos, Plateau State, Nigeria
+              United Kingdom
             </p>
             <p className="text-gray-300 leading-relaxed">
               For any legal matters or correspondence, please contact us at:
             </p>
             <ul className="text-gray-300 mt-2 ml-6">
-              <li>Email: askamai@gmail.com</li>
-              <li>Phone: +234 706 606 2431 / +234 803 887 8026</li>
-              <li>Address: No. 8, Ahmadu Bello Way, Opposite NIPOST, Jos, Plateau State, Nigeria</li>
+              <li>Email: partnerships@omnihorizon.tech</li>
+              <li>Phone: +44 7932070056</li>
+              <li>Address: United Kingdom</li>
             </ul>
           </section>
 
@@ -41,7 +41,7 @@ export default function TermsPage() {
               Welcome to Cashstack, an AI-powered banking platform that offers a variety of services such as 
               seamless digital transactions, StackPoints rewards program, smart analytics, secure banking, 
               and instant transfers. These Terms of Service (&ldquo;Agreement&rdquo;) govern your use of the Cashstack 
-              platform and any related services provided by ASKAM AI LIMITED.
+              platform and any related services provided by OMNI HORIZON TECHNOLOGY LTD.
             </p>
             <p className="text-gray-300 leading-relaxed">
               By using our services, you agree to be bound by the terms and conditions of this Agreement. 
@@ -65,15 +65,15 @@ export default function TermsPage() {
             </ul>
             <p className="text-gray-300 leading-relaxed mt-4">
               If you wish to do so, you can delete your Account at any time by following the instructions on the Site and Platforms. 
-              Please note that ASKAM AI LIMITED reserves the right to suspend or terminate your Account under certain circumstances.
+              Please note that OMNI HORIZON TECHNOLOGY LTD reserves the right to suspend or terminate your Account under certain circumstances.
             </p>
 
             <h3 className="text-xl font-semibold mb-3 text-white mt-6">3.2 Account Responsibilities</h3>
             <p className="text-gray-300 leading-relaxed">
               You are solely responsible for maintaining the confidentiality of your Account login details and will be held 
               accountable for all activities that occur under your Account. If you suspect any unauthorized use or breach 
-              of security related to your Account, please notify ASKAM AI LIMITED immediately. It&apos;s essential to comply 
-              with these requirements, as ASKAM AI LIMITED cannot be held liable for any loss or damage resulting from 
+              of security related to your Account, please notify OMNI HORIZON TECHNOLOGY LTD immediately. It&apos;s essential to comply 
+              with these requirements, as OMNI HORIZON TECHNOLOGY LTD cannot be held liable for any loss or damage resulting from 
               your failure to do so.
             </p>
           </section>
@@ -92,7 +92,7 @@ export default function TermsPage() {
             
             <h3 className="text-xl font-semibold mb-3 text-white">5.1 License</h3>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Subject to the terms outlined here, ASKAM AI LIMITED grants you a limited, non-transferable, non-exclusive, 
+              Subject to the terms outlined here, OMNI HORIZON TECHNOLOGY LTD grants you a limited, non-transferable, non-exclusive, 
               revocable license to access and use the Site strictly for your personal, non-commercial purposes.
             </p>
 
@@ -110,7 +110,7 @@ export default function TermsPage() {
             <h3 className="text-xl font-semibold mb-3 text-white mt-6">5.3 Ownership</h3>
             <p className="text-gray-300 leading-relaxed">
               You recognize that all intellectual property rights, including copyrights, patents, trademarks, and trade secrets, 
-              associated with the Site and its content, are owned by ASKAM AI LIMITED or its suppliers. These Terms do not 
+              associated with the Site and its content, are owned by OMNI HORIZON TECHNOLOGY LTD or its suppliers. These Terms do not 
               transfer to you or any third party any rights, title, or interest in or to such intellectual property rights.
             </p>
           </section>
@@ -166,7 +166,7 @@ export default function TermsPage() {
             <ul className="text-gray-300 ml-6 space-y-2">
               <li>• Points are earned based on transaction volume and frequency</li>
               <li>• Points can be redeemed for cash, gift cards, and exclusive rewards</li>
-              <li>• ASKAM AI LIMITED reserves the right to modify or discontinue the program</li>
+              <li>• OMNI HORIZON TECHNOLOGY LTD reserves the right to modify or discontinue the program</li>
               <li>• Points may expire after a period of inactivity</li>
               <li>• StackPoints are non-transferable and have no cash value except as stated in the program terms</li>
             </ul>
@@ -175,7 +175,7 @@ export default function TermsPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4 text-white">9. Disclaimers</h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              The Site is provided on an &ldquo;as-is&rdquo; and &ldquo;as available&rdquo; basis, and ASKAM AI LIMITED (along with our suppliers) 
+              The Site is provided on an &ldquo;as-is&rdquo; and &ldquo;as available&rdquo; basis, and OMNI HORIZON TECHNOLOGY LTD (along with our suppliers) 
               expressly disclaims any and all warranties and conditions, whether express, implied, or statutory. This includes 
               but is not limited to warranties or conditions of merchantability, fitness for a particular purpose, title, 
               quiet enjoyment, accuracy, or non-infringement.
@@ -190,9 +190,9 @@ export default function TermsPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4 text-white">10. Limitation of Liability</h2>
             <p className="text-gray-300 leading-relaxed">
-              In no event shall ASKAM AI LIMITED or its suppliers be liable for any damages (including, without limitation, 
+              In no event shall OMNI HORIZON TECHNOLOGY LTD or its suppliers be liable for any damages (including, without limitation, 
               damages for loss of data or profit, or due to business interruption) arising out of the use or inability to 
-              use Cashstack, even if ASKAM AI LIMITED or an authorized representative has been notified orally or in writing 
+              use Cashstack, even if OMNI HORIZON TECHNOLOGY LTD or an authorized representative has been notified orally or in writing 
               of the possibility of such damage.
             </p>
           </section>
@@ -206,7 +206,7 @@ export default function TermsPage() {
             </p>
             <p className="text-gray-300 leading-relaxed">
               Upon termination of these Terms, your Account will be deactivated, and your access to the Site will cease 
-              immediately. ASKAM AI LIMITED holds no liability to you for the termination of your rights under these Terms, 
+              immediately. OMNI HORIZON TECHNOLOGY LTD holds no liability to you for the termination of your rights under these Terms, 
               including the termination of your Account.
             </p>
           </section>
@@ -227,21 +227,21 @@ export default function TermsPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4 text-white">13. Governing Law</h2>
             <p className="text-gray-300 leading-relaxed">
-              These terms and conditions are governed by and construed in accordance with the laws of the Federal Republic of Nigeria 
-              and you irrevocably submit to the exclusive jurisdiction of the courts in Nigeria.
+              These terms and conditions are governed by and construed in accordance with the laws of the United Kingdom
+              and you irrevocably submit to the exclusive jurisdiction of the courts in the United Kingdom.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4 text-white">14. General</h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              These Terms constitute the entire agreement between you and ASKAM AI LIMITED regarding the use of the Site. 
+              These Terms constitute the entire agreement between you and OMNI HORIZON TECHNOLOGY LTD regarding the use of the Site. 
               Failure to enforce any provision of these Terms does not waive the right to enforce it in the future.
             </p>
             <p className="text-gray-300 leading-relaxed">
               If any provision of these Terms is found to be invalid or unenforceable, the remaining provisions shall remain 
               valid and enforceable to the maximum extent permitted by law. You may not transfer or assign these Terms without 
-              ASKAM AI LIMITED&apos;s prior written consent.
+              OMNI HORIZON TECHNOLOGY LTD&apos;s prior written consent.
             </p>
           </section>
 
@@ -249,19 +249,18 @@ export default function TermsPage() {
             <h2 className="text-2xl font-semibold mb-4 text-white">15. Contact Us</h2>
             <p className="text-gray-300 leading-relaxed mb-4">
               If you have any concerns or dissatisfaction regarding any aspect of the Services provided by Cashstack, 
-              you have several options to get in touch with us. You can send your complaint to askamai@gmail.com, 
-              call us at +234 706 606 2431 or +234 803 887 8026, or use the in-app customer support chat available 
+              you have several options to get in touch with us. You can send your complaint to partnerships@omnihorizon.tech, 
+              call us at +44 7932070056, or use the in-app customer support chat available
               on the Cashstack mobile app to lodge your complaint.
             </p>
             <p className="text-gray-300 leading-relaxed">
               We are here to assist you and address any issues you may encounter.
             </p>
             <div className="mt-4 p-4 bg-gray-900 rounded-lg">
-              <p className="text-white font-semibold">ASKAM AI LIMITED</p>
-              <p className="text-gray-300">RC Number: 7390882</p>
-              <p className="text-gray-300">Email: askamai@gmail.com</p>
-              <p className="text-gray-300">Phone: +234 706 606 2431 / +234 803 887 8026</p>
-              <p className="text-gray-300">Address: No. 8, Ahmadu Bello Way, Opposite NIPOST, Jos, Plateau State, Nigeria</p>
+              <p className="text-white font-semibold">OMNI HORIZON TECHNOLOGY LTD</p>
+              <p className="text-gray-300">Email: partnerships@omnihorizon.tech</p>
+              <p className="text-gray-300">Phone: +44 7932070056</p>
+              <p className="text-gray-300">Address: United Kingdom</p>
             </div>
           </section>
 
